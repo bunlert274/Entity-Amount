@@ -2,9 +2,9 @@
   "name": "entities-amount",
   "version": "1.0.0",
   "description": "",
-  "main": "entities-amount.js",
+  "main": "index.js",
   "scripts": {
-    "start": "nodemon --watch src --exec babel-node src/server.js",
+    "start": "node index.js",
     "development": "nodemon ./src/app --exec babel-node",
     "prestart": "npm run build",
     "build": "babel src --source-maps --out-dir dist",
